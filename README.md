@@ -25,7 +25,7 @@ GET /hello
 
 Auth Header: 
 {
-  "Authorization": "Bearer AuthTOKEN"
+  "Authorization": "Bearer <JWT_TOKEN>"
 }
  ``` 
  
@@ -36,3 +36,13 @@ Auth Header:
  - user: `javainuse`
  - api: `api01`
 
+
+##Instructions to Run this project
+
+Make sure you have Java 8 and Maven installed
+
+Run the project
+$ mvn spring-boot:run
+
+server:
+  port: 8080
