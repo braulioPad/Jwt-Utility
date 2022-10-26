@@ -35,6 +35,7 @@ Auth Header:
  
  - user: `javainuse`
  - api: `api01`
+ - password: `password`
 
 
 ## Instructions to Run this project
